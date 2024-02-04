@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/auth.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <div class="form">
+        <form id="login">
+            <h2>Login</h2>
+            <div class="input">
+
+                <div id="error"></div>
+
+                <div class="inputBox">
+                    <label for="email">Email</label>
+                    <div id="errorEmail"></div>
+                    <input type="text" id="email">
+                </div>
+
+                <div class="inputBox">
+                    <label for="password">Password</label>
+                    <div id="errorPassword"></div>
+                    <input type="password" id="password">
+                </div>
+
+                <div class="inputBox">
+                    <input type="submit" name="" value="Sign In">
+                </div>
+
+            </div>
+        </form>
+        <p class="forgot">Dont't have an account?
+            <a href="register.html">
+                Register
+            </a>
+        </p>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
